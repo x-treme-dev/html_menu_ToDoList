@@ -1,0 +1,160 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1200px;
+    width:85vw;
+}
+
+.menu{
+    background-color: #f1948a;
+    margin: 20px auto;
+    height: 300px;
+    width: 700px;
+}
+
+.menu__list{
+    color: #fff;
+    padding: 30px 0 25px 0;
+    list-style-type: none;
+}
+
+.menu__row{
+    display: flex;
+}
+
+.menu__items{
+    background-color:  #e74c3c;
+    margin:0 0 10px 25px;
+    height: 40px;
+    width: 650px;
+}
+
+.menu__text, .menu__numbers{
+    display:grid;
+    place-items: center;
+}
+
+.menu__numbers{
+    background-color:#e74c3c;
+    height: 40px;
+    width: 40px;
+}
+
+#apple, #orange, #pineapple, #pear, #cherry{
+    background-color: #a93226;
+    height: 40px;
+}
+ #apple, #cherry{
+    width: 100px;
+}
+
+#orange{
+    width: 120px;
+}
+
+#pineapple{
+    width: 140px;
+}
+
+#pear{
+    width: 110px; 
+}
+
+.todolist{
+    font-weight: Bold;
+    margin: 20px auto;
+    text-align: left;
+   
+}
+
+.todolist__inner{
+    display: flex;
+}
+
+.todolist__img{
+    height: 20px;
+    width: 20px;
+}
+
+.todolist__block{
+    font-size: 80%;
+    font-weight:200;
+    list-style-type: none;
+    margin-top:20px;
+    width: 700px;
+    height: 300px;
+}
+
+.todolist__items:nth-child(1){
+    background-color: #d4e6f1;
+}
+
+.todolist__items:nth-child(3){
+    background-color: #d4e6f1;
+}
+
+.todolist__items:nth-child(2){
+    background-color: #eaeded;
+}
+
+.todolist__items:nth-child(2n+4){
+    background-color:  #d0ece7;
+}
+
+.todolist__items:nth-child(5){
+    background-color: #eaeded;
+}
+
+.todolist__items:nth-child(11){
+    background-color: #eaeded;
+}
+
+.todolist__items:nth-child(7){
+    background-color: #d4e6f1;
+}
+.todolist__items:nth-child(9){
+    background-color: #d4e6f1;
+}
+
+ .todolist__inner{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.todolist__img{
+    margin: 0 20px 0 40px;
+}
+
+.todolist__pgh:after{
+   content: '\2718';
+   color:red;
+   margin-left:20px;
+}
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
